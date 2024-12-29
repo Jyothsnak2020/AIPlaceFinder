@@ -61,7 +61,7 @@ export function SignupFormDemo() {
     setLoading(true);
 
     try {
-      await axios.post('https://ai-place-finder-backend.onrender.com/send-otp', { email });
+      await axios.post('https://aiplacefinder-backend-ugbv.onrender.com/send-otp', { email });
       setShowOtpForm(true);
       setOtpSent(true);
       setTimer(120); // Set timer for 2 minutes
